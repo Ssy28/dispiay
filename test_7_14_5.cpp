@@ -16,6 +16,7 @@ int main()
     case 6:
     case 7:
         printf("休息日\n");
+        break;
     }
     return 0;
 }
