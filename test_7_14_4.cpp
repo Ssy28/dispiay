@@ -27,6 +27,9 @@ int main()
     case 7:
         printf("星期天\n");
         break;
+    default:
+        printf("输入错误\n");
+        break;
     }
     return 0;
 }
