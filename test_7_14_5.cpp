@@ -17,6 +17,9 @@ int main()
     case 7:
         printf("休息日\n");
         break;
+    default:
+        printf("输入错误\n");
+        break;
     }
     return 0;
 }
