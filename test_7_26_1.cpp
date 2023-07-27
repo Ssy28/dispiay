@@ -7,6 +7,7 @@ void bubble_sort(int arr[], int sz)
     int i = 0;
     for(i=0; i<sz-1; i++)
     {
+        int flag = 1;//假设数据已经有序
         //每一趟冒泡排序
         int j = 0;
         for(j = 0; j < sz-1-i; j++)
@@ -16,7 +17,12 @@ void bubble_sort(int arr[], int sz)
                 int tmp = arr[j];
                 arr[j] = arr[j+1];
                 arr[j+1] = tmp;
+                flag = 0;
             }
+        }
+        if(flag==1)//判断数据是否已经有序
+        {
+            break;
         }
     }
 }
