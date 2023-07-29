@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+//求阶乘
 // int Fac1(int x)
 // {
 //     int i = 1;
