@@ -26,7 +26,7 @@ int main()
         ret = Fac2(n);
         printf("%d\n", ret);
     }
-    else//无法判断小数
+    else//无法判断浮点数
         printf("输入错误\n");
     return 0;
 }
