@@ -13,7 +13,7 @@ int my_strlen(char* str)
 
 int main()
 {
-    char arr[] = "bit";
+    char arr[] = "hello";
     int len = my_strlen(arr);
     printf("%d", len);
     return 0;
