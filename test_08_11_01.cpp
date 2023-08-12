@@ -5,7 +5,7 @@ int main()
     int a = 10;
     int b = 20;
     int c = 30;
-    int* arr[3] = {&a, &b, &c};
+    int* arr[3] = {&a, &b, &c};//指针数组
     int i = 0;
     
     for(i=0; i<3; i++)
